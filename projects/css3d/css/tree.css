@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    perspective:600px;
+}
+.arvore{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: rotate3d(0,0,0,45deg);
+    transform-style: preserve-3d;
+    background-color: black;
+}
+
+.obj{
+    position: absolute;
+    top: 140px;
+    left: 60px;
+    height: 50px;
+    width: 50px;
+    transform-style: preserve-3d;
+}
+.mesh1,.mesh2,.mesh3,.mesh4,.mesh5,.mesh6{
+    position: absolute;
+    height: inherit;
+    width: inherit;
+}
+.mesh1{
+    z-index: 1;
+    background-color: rgb(110, 218, 10);
+    transform:rotateY(90deg) translate3d(25px,0,25px);
+}
+.mesh2{
+    z-index: 2;
+    background-color: rgb(34, 70, 1);
+    transform:rotateY(0deg);
+}
+.mesh3{
+    z-index: 3;
+    background-color: rgb(110, 218, 10);
+    transform:rotateY(-90deg) translate3d(-25px,0,25px);
+}
+.mesh4{
+    z-index: 4;
+    background-color: rgb(34, 70, 1);
+    transform:rotateY(-180deg) translate3d(0px,0,50px);
+    
+}
+.mesh5{
+    z-index: 4;
+    background-color:rgb(34, 70, 1);
+    transform:rotate3d(-1,0,0,90deg) translate3d(0px,25px,25px);  
+}
+.mesh6{
+    z-index: 4;
+    background-color:rgb(34, 70, 1);
+    transform:rotate3d(-1,0,0,90deg) translate3d(0px,25px,-25px);  
+}
+.tronco{
+    position: absolute;
+    top: 200px;
+    left: 90px;
+    height: 50px;
+    width: 50px;
+    transform-style: preserve-3d;
+    transform: translate3d(-10px,-10px,-20px);
+}
+.t-mesh1,.t-mesh2,.t-mesh3,.t-mesh4{
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    width: 10px;
+    height: 50px;
+}
+.t-mesh1{
+    z-index: 1;
+    background-color: rgb(68, 28, 28);
+    transform:rotateY(90deg) translate3d(5px,0,5px);
+}
+.t-mesh2{
+    z-index: 2;
+    background-color: rgb(68, 28, 28);
+    transform:rotateY(0deg);
+}
+.t-mesh3{
+    z-index: 3;
+    background-color: rgb(68, 28, 28);
+    transform:rotateY(-90deg) translate3d(-5px,0,5px);
+}
+.t-mesh4{
+    z-index: 4;
+    background-color: rgb(68, 28, 28);
+    transform:rotateY(-180deg) translate3d(0px,0,10px);
+    
+}

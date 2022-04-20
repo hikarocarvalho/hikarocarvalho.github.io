@@ -1,0 +1,64 @@
+body{
+	background-image: url("../imgs/background.jpg");
+	background-repeat: no-repeat;
+	background-size: auto 100vh;
+}
+.luffy{
+	z-index: 1;
+	width: 50%;
+	position: absolute;
+	left: 10%;
+	bottom: 0;
+
+}
+ul{
+	list-style: none;
+	position: absolute;
+	right: 5%;
+	z-index: 2;
+}
+
+ul li .happy img:hover,ul li  .angry img:hover,ul li .idiot img:hover,ul li .disgusted img:hover{
+	background:url("../imgs/wood.png");
+	border-radius: 20px;
+	
+
+}
+ul li .happy{
+	top:10%;
+}
+ul li  .angry{
+	top:20%;
+}
+ul li  .idiot{
+	top:30%;
+}
+ul li  .disgusted{
+	top:40%;
+}
+ul li .happy,ul li  .angry,ul li  .idiot ,ul li  .disgusted{
+	position: relative;
+	width: 0px;
+	height: 0px;
+	right: 10%;
+	padding: 0;
+}
+ul li .happy img,ul li  .angry img,ul li  .idiot img,ul li  .disgusted img{
+	width: 100px;
+	height: 100px;
+}
+
+.name{
+	
+	z-index: 4;
+	position: absolute;
+	top:5%;
+	font-size: 20px;
+	color: yellow;
+	font-weight: bold;
+	
+}
+ul li label{
+	font-weight: bold;
+	color: white;
+}

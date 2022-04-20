@@ -1,0 +1,523 @@
+<html>
+    <head>
+       <script src="js/rotate.js" defer></script>
+       <script src="js/movePlayer.js" defer></script>
+        <link rel="stylesheet" href="css/tree.css">
+        <link rel="stylesheet" href="css/world.css">
+        <link rel="stylesheet" href="css/map.css">
+        <link rel="stylesheet" href="css/player.css">
+    </head>
+    <body  style="transform:rotateY(0deg);">
+        <div id="world" class="world" rotatex="0" rotatey="0">
+            <div class="map" id="map">
+                <div class="floor-pt1">
+                    <div class="bloco-arvore">
+                        <div class="arvore" id="arvore">
+                            <div id="obj" class="obj">
+                                <div class="mesh1"></div>
+                                <div class="mesh2"></div>
+                                <div class="mesh3"></div>
+                                <div class="mesh4"></div>
+                                <div class="mesh5"></div>
+                                <div class="mesh6"></div>
+                            </div>
+                            <div class="tronco">
+                                <div class="t-mesh1">
+                
+                                </div>
+                                <div class="t-mesh2">
+                                    
+                                </div>
+                                <div class="t-mesh3">
+                                    
+                                </div>
+                                <div class="t-mesh4">
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="floor">
+                            <div class="floor-block">
+                                <div class="block-mesh1"></div>
+                                <div class="block-mesh2"></div>
+                                <div class="block-mesh3"></div>
+                                <div class="block-mesh4"></div>
+                                <div class="block-mesh5"></div>
+                                <div class="block-mesh6"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floor"> 
+                        <div class="floor-block2">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        <div class="floor-block3">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        <div class="floor-block4">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        <div class="floor-block5">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        <div class="floor-block6">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        
+                    </div>  
+                </div>
+                <div class="floor-pt2">
+                    <div class="bloco-arvore">
+                        <div class="arvore" id="arvore">
+                            <div id="obj" class="obj">
+                                <div class="mesh1"></div>
+                                <div class="mesh2"></div>
+                                <div class="mesh3"></div>
+                                <div class="mesh4"></div>
+                                <div class="mesh5"></div>
+                                <div class="mesh6"></div>
+                            </div>
+                            <div class="tronco">
+                                <div class="t-mesh1">
+                
+                                </div>
+                                <div class="t-mesh2">
+                                    
+                                </div>
+                                <div class="t-mesh3">
+                                    
+                                </div>
+                                <div class="t-mesh4">
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="floor">
+                            <div class="floor-block">
+                                <div class="block-mesh1"></div>
+                                <div class="block-mesh2"></div>
+                                <div class="block-mesh3"></div>
+                                <div class="block-mesh4"></div>
+                                <div class="block-mesh5"></div>
+                                <div class="block-mesh6"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floor">
+                        <div class="floor-block2">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        <div class="floor-block3">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        <div class="floor-block4">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        <div class="floor-block5">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        <div class="floor-block6">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                    </div>  
+                </div>
+                <div class="floor-pt3">
+                    <div class="floor">
+                        <div class="floor-block2">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        <div class="floor-block3">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        <div class="floor-block4">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        <div class="floor-block5">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        <div class="floor-block6">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                    </div>  
+                    <div class="bloco-arvore">
+                        <div class="arvore" id="arvore">
+                            <div id="obj" class="obj">
+                                <div class="mesh1"></div>
+                                <div class="mesh2"></div>
+                                <div class="mesh3"></div>
+                                <div class="mesh4"></div>
+                                <div class="mesh5"></div>
+                                <div class="mesh6"></div>
+                            </div>
+                            <div class="tronco">
+                                <div class="t-mesh1">
+                
+                                </div>
+                                <div class="t-mesh2">
+                                    
+                                </div>
+                                <div class="t-mesh3">
+                                    
+                                </div>
+                                <div class="t-mesh4">
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="floor">
+                            <div class="floor-block">
+                                <div class="block-mesh1"></div>
+                                <div class="block-mesh2"></div>
+                                <div class="block-mesh3"></div>
+                                <div class="block-mesh4"></div>
+                                <div class="block-mesh5"></div>
+                                <div class="block-mesh6"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="floor-pt4">
+                    <div class="bloco-arvore">
+                        <div class="arvore" id="arvore">
+                            <div id="obj" class="obj">
+                                <div class="mesh1"></div>
+                                <div class="mesh2"></div>
+                                <div class="mesh3"></div>
+                                <div class="mesh4"></div>
+                                <div class="mesh5"></div>
+                                <div class="mesh6"></div>
+                            </div>
+                            <div class="tronco">
+                                <div class="t-mesh1">
+                
+                                </div>
+                                <div class="t-mesh2">
+                                    
+                                </div>
+                                <div class="t-mesh3">
+                                    
+                                </div>
+                                <div class="t-mesh4">
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="floor">
+                            <div class="floor-block">
+                                <div class="block-mesh1"></div>
+                                <div class="block-mesh2"></div>
+                                <div class="block-mesh3"></div>
+                                <div class="block-mesh4"></div>
+                                <div class="block-mesh5"></div>
+                                <div class="block-mesh6"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floor">
+                        
+                        <div class="floor-block2">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        <div class="floor-block3">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        <div class="floor-block4">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        <div class="floor-block5">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        <div class="floor-block6">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        
+                    </div>  
+                </div>
+                <div class="floor-pt5">
+                    <div class="bloco-arvore">
+                        <div class="arvore" id="arvore">
+                            <div id="obj" class="obj">
+                                <div class="mesh1"></div>
+                                <div class="mesh2"></div>
+                                <div class="mesh3"></div>
+                                <div class="mesh4"></div>
+                                <div class="mesh5"></div>
+                                <div class="mesh6"></div>
+                            </div>
+                            <div class="tronco">
+                                <div class="t-mesh1">
+                
+                                </div>
+                                <div class="t-mesh2">
+                                    
+                                </div>
+                                <div class="t-mesh3">
+                                    
+                                </div>
+                                <div class="t-mesh4">
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="floor">
+                            <div class="floor-block">
+                                <div class="block-mesh1"></div>
+                                <div class="block-mesh2"></div>
+                                <div class="block-mesh3"></div>
+                                <div class="block-mesh4"></div>
+                                <div class="block-mesh5"></div>
+                                <div class="block-mesh6"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floor">
+                        <div class="floor-block2">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        <div class="floor-block3">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        <div class="floor-block4">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        <div class="floor-block5">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        <div class="floor-block6">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                    </div>  
+                </div>
+                <div class="floor-pt6">
+                    <div class="floor">
+                        <div class="floor-block2">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        <div class="floor-block3">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        <div class="floor-block4">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        <div class="floor-block5">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                        <div class="floor-block6">
+                            <div class="block-mesh1"></div>
+                            <div class="block-mesh2"></div>
+                            <div class="block-mesh3"></div>
+                            <div class="block-mesh4"></div>
+                            <div class="block-mesh5"></div>
+                            <div class="block-mesh6"></div>
+                        </div>
+                    </div>  
+                    <div class="bloco-arvore">
+                        <div class="arvore" id="arvore">
+                            <div id="obj" class="obj">
+                                <div class="mesh1"></div>
+                                <div class="mesh2"></div>
+                                <div class="mesh3"></div>
+                                <div class="mesh4"></div>
+                                <div class="mesh5"></div>
+                                <div class="mesh6"></div>
+                            </div>
+                            <div class="tronco">
+                                <div class="t-mesh1">
+                
+                                </div>
+                                <div class="t-mesh2">
+                                    
+                                </div>
+                                <div class="t-mesh3">
+                                    
+                                </div>
+                                <div class="t-mesh4">
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="floor">
+                            <div class="floor-block">
+                                <div class="block-mesh1"></div>
+                                <div class="block-mesh2"></div>
+                                <div class="block-mesh3"></div>
+                                <div class="block-mesh4"></div>
+                                <div class="block-mesh5"></div>
+                                <div class="block-mesh6"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="player" id="player" rotate="0" x="0" y="0" z="0">
+                <div class="head">
+                    <div class="head-mesh1"></div>
+                    <div class="head-mesh2"></div>
+                    <div class="head-mesh3"></div>
+                    <div class="head-mesh4"></div>
+                    <div class="head-mesh5"></div>
+                    <div class="head-mesh6"></div>
+                </div>
+                <div class="body">
+                    <div class="head-mesh1"></div>
+                    <div class="head-mesh2"></div>
+                    <div class="head-mesh3"></div>
+                    <div class="head-mesh4"></div>
+                    <div class="head-mesh5"></div>
+                    <div class="head-mesh6"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,102 @@
+.player{
+    transform-style: preserve-3d;
+    perspective-origin:center center;
+    position: absolute;
+    top: 0;
+    transform: translateY(26px);
+    transform-origin: 25px 25px;
+}
+.player .head{
+    position: absolute;
+    top: 60px;
+    left: 32%;
+    transform-style: preserve-3d;
+}
+.player .body{
+    position: absolute;
+    top: 60px;
+    left: 32%;
+    transform: translate3d(0px,50px,0px);
+    transform-style: preserve-3d;
+}
+
+.player,
+.player .head,
+.player .body,
+.player .head-mesh1,
+.player .head-mesh2,
+.player .head-mesh3,
+.player .head-mesh4,
+.player .head-mesh5,
+.player .head-mesh6{
+    transform-style: preserve-3d;
+}
+.player .head-mesh1,
+.player .head-mesh2,
+.player .head-mesh3,
+.player .head-mesh4,
+.player .head-mesh5,
+.player .head-mesh6{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border: 0.5px solid black;
+}
+.player .head-mesh1{
+    
+    transform:rotateY(90deg) translate3d(0px,50px,25px);
+}
+.player .head-mesh2{
+    transform:rotateY(0deg) translate3d(0px,0px,25px);
+}
+.player .head-mesh3{
+    transform:rotateY(-90deg) translate3d(0px,-52px,25px);
+}
+.player .head-mesh4{
+    background-image: url("./../imgs/face.png");
+    transform:rotateY(-180deg) translate3d(0px,-105px,25px);
+}
+.player .head-mesh5{
+    transform:rotateX(90deg) translate3d(0px,0px,130px);
+}
+.player .head-mesh6{
+    transform:rotateX(90deg) translate3d(0px,0px,235px);
+}
+.player .body .head-mesh1,
+.player .body .head-mesh2,
+.player .body .head-mesh3,
+.player .body .head-mesh4,
+.player .body .head-mesh5,
+.player .body .head-mesh6{
+    width: 20px;
+}
+.player .body .head-mesh1,
+.player .body .head-mesh3{
+    background-image: url("./../imgs/pants-side.png");
+}
+.player .body .head-mesh2,
+.player .body .head-mesh4{
+    width: 40px;
+    background-image: url("./../imgs/pants-front.png");
+}
+.player .body .head-mesh5,
+.player .body .head-mesh6{
+    width: 40px;
+    height: 20px;
+}
+.player .body .head-mesh1{
+    transform:rotateY(90deg) translate3d(0px,50px,35px);
+}
+.player .body .head-mesh2{
+    transform:rotateY(0deg) translate3d(5px,0px,7px);
+}
+.player .body .head-mesh3{
+    transform:rotateY(-90deg) translate3d(0px,-52px,7px);
+}
+.player .body .head-mesh4{
+    transform:rotateY(-180deg) translate3d(-5px,-105px,9px);
+}
+.player .body .head-mesh5{
+    transform:rotateX(90deg) translate3d(5px,0px,115px);
+}
+.player .body .head-mesh6{}

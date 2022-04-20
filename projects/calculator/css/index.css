@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: orange;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+body, .calculator, .key-board, .key-board nav, .key-board nav ul, .key-board nav ul li, .key-board nav ul ul, .key-board nav ul ul li {
+    margin: 0;
+    padding: 0;
+}
+.calculator{
+    width: 20em;
+    background-color: rgba(14, 119, 131, 0.6);
+    margin-right: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 1em;
+}
+.calculator .display{
+    height: 10em;
+    background-color: rgba(0, 0, 0, 0.329);
+    width: 100%;
+    color: rgba(255, 255, 255, 0.514);
+    padding:0.5em;
+}
+.key-board{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.key-board nav ul,.key-board nav ul ul{
+    max-width: 20em;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5em;
+    justify-content: space-between;
+}
+.key-board nav ul:last-child{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.key-board nav ul ul{
+    display: flex;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+.key-board nav ul li, .key-board nav ul ul li{
+    padding: 1em;
+}
+.key-board ul ul:last-child{
+    flex-direction: row;
+    margin-top: 0.5em;
+    
+}
+.key-board ul ul{
+    min-width: 14.6em;
+}
+.btn-plus{
+    height: 5em;
+    background-color: rgba(255, 68, 0, 0.795);
+    color: white;
+    position: absolute;
+    transform:translateX(16em) translateY(0.5em);
+    border-radius: 5px;
+}
+li{
+    background-color: rgba(10, 10, 10, 0.2);
+    border-radius: 5px;
+    width: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.btn-plus:hover{
+    background-color: rgba(255, 68, 0, 1);
+}
+li:hover{
+    background-color: rgba(10, 10, 10, 0.5);
+    color: white;
+}
+.display h1{
+    font-size: 3em;
+}
+.memory{
+    display: none;
+}
+

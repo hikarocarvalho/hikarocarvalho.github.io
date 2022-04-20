@@ -1,0 +1,94 @@
+.bloco-arvore2{
+    transform-style: preserve-3d;
+    transform: translate3d(200px,0px,0px);
+}
+.floor-block2{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    height: 100px;
+    width: 100px;
+    transform-style: preserve-3d;
+    transform:translate3d(-100px,0px,60px);
+}
+.floor-block3{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    height: 100px;
+    width: 100px;
+    transform-style: preserve-3d;
+    transform:translate3d(0px,0px,-125px);
+}
+.floor-block4{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    height: 100px;
+    width: 100px;
+    transform-style: preserve-3d;
+    transform:translate3d(-100px,0px,-125px);
+}
+.floor-block5{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    height: 100px;
+    width: 100px;
+    transform-style: preserve-3d;
+    transform:translate3d(0px,0px,60px);
+}
+.floor-block6{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    height: 100px;
+    width: 100px;
+    transform-style: preserve-3d;
+    transform:translate3d(0px,0px,-35px);
+}
+.floor-block{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    height: 100px;
+    width: 100px;
+    transform-style: preserve-3d;
+    transform:translate3d(-100px,0px,-35px);
+}
+.block-mesh1,.block-mesh2,.block-mesh3,
+.block-mesh4{
+    width:100px;
+    height: 10px;
+}
+.block-mesh5,.block-mesh6{
+    width: 100px;
+    height: 100px;
+}
+.block-mesh1{
+    background-color: rgb(110, 218, 10);
+    transform:rotateY(90deg) translate3d(0px,30px,50px);
+}
+.block-mesh2{
+    background-color: rgb(110, 218, 10);
+    transform:rotateY(0deg) translate3d(0px,20px,50px);
+}
+.block-mesh3{    
+    background-color: rgb(110, 218, 10);
+    transform:rotateY(-90deg) translate3d(0px,10px,50px);
+}
+.block-mesh4{
+    background-color: rgb(110, 218, 10);
+    transform:rotateY(-180deg) translate3d(0px,0px,50px);
+}
+.block-mesh5{
+    background-color: rgb(64, 112, 1);
+    transform:rotateX(90deg) translate3d(0px,0px,60px);
+}
+.block-mesh6{
+    background-color: rgb(0, 0, 0);
+    transform:rotateX(90deg) translate3d(0px,0px,150px);
+}
+.floor-block2 .block-mesh5,.floor-block4 .block-mesh5,.floor-block6 .block-mesh5{
+    background-color: rgb(21, 160, 21);
+}
