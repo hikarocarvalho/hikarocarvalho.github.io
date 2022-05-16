@@ -5,9 +5,9 @@ body{
 }
 .luffy{
 	z-index: 1;
-	width: 50%;
+	width: 100%;
 	position: absolute;
-	left: 10%;
+	left: 0%;
 	bottom: 0;
 
 }
@@ -53,12 +53,25 @@ ul li .happy img,ul li  .angry img,ul li  .idiot img,ul li  .disgusted img{
 	z-index: 4;
 	position: absolute;
 	top:5%;
-	font-size: 20px;
+	font-size: 3em;
 	color: yellow;
 	font-weight: bold;
 	
 }
-ul li label{
+ul label{
 	font-weight: bold;
-	color: white;
+	color: black;
+	font-size: 2em;
+	background-color: yellow;
+	border-radius: 10px;
+	border: 5px solid black;
+	width: 100%;
+
+}
+ul{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	margin-right: 0em;
 }
