@@ -25,6 +25,10 @@
 ::-webkit-scrollbar-thumb:hover {
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body, .header-page, .about, .services, .contacts{
     display: flex;
     flex-direction: column;
@@ -36,6 +40,7 @@ body, .header-page, .about, .services, .contacts{
     height: 400vh;
     overflow-x: hidden;
     font-family: 'Dyuthi';
+    transition-duration: 5s;
 }
 
 .header-page,.about,.services,.contacts{
